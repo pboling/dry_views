@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dummy</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%=  content_for_with_default :top_content do %>
+
+  <p>This is default top_content.</p>
+
+<% end %>
+
+<%=  content_for_with_default :main_content do %>
+
+  <p>This is default main_content.</p>
+
+<% end %>
+
+</body>
+</html>
