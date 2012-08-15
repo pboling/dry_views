@@ -1,6 +1,11 @@
 # DryViews [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/pboling/dry_views) [![Build Status](https://secure.travis-ci.org/pboling/dry_views.png?branch=master)](http://travis-ci.org/pboling/dry_views)
 
-Keep the views dry with content_for_with_default and friends!
+## Why?
+
+* Keep the views dry with content_for_with_default and friends!
+* Complete flexibility in defining defaults and overrides.
+* Remove most or all logic from views.
+* Allow for no content to override a default.
 
 DryViews provides extensions to ActionView::Helpers::CaptureHelper, which is part of ActionPack:
 * content_for_with_default
