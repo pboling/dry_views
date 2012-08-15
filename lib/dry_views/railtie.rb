@@ -1,7 +1,7 @@
 # Copyright (c) 2008-12 Peter H. Boling of 9thBit LLC
 # Released under the MIT license
 # For Rails 3+
-module SanitizeEmail
+module DryViews
   class Railtie < ::Rails::Railtie
 
     config.before_configuration do
