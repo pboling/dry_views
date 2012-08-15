@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   # Development Dependencies
   gem.add_development_dependency(%q<rails>, ["> 3"])
   gem.add_development_dependency(%q<activesupport>, ["> 3"])
-  gem.add_development_dependency(%q<rspec-rails>, [">= 2.8.0"])
+  gem.add_development_dependency(%q<rspec-rails>, [">= 2.11.0"])
   gem.add_development_dependency(%q<reek>, [">= 1.2.8"])
   gem.add_development_dependency(%q<roodi>, [">= 2.1.0"])
 

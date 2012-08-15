@@ -1,2 +1,8 @@
+Version 0.0.2 - AUG.14.2012
+- Fixes Typos
+- Tighten gem dependencies
+- Added badges for Travis-CI & CodeClimate
+- More specs
+
 Version 0.0.1 - AUG.14.2012
 - Initial Release

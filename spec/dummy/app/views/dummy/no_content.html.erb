@@ -1,0 +1,9 @@
+<%- no_content_for :top_content %>
+
+<%= render :partial => 'no_main_content' %>
+
+<%= content_for :main_content do %>
+  <p>
+    This is main_content override.
+  </p>
+<% end %>
