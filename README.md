@@ -14,7 +14,7 @@ DryViews provides extensions to ActionView::Helpers::CaptureHelper, which is par
 
 The rails rendering chain is sort of inside out so the template rendering happens first, and this is what makes it possible to override everything! The template will ALWAYS override the layout, and a partial will always override a partial layout.
 
-Here are some guidelines for using the code below:
+Here are some guidelines for using the code below with HAML (see the [wiki for ERB examples](https://github.com/pboling/dry_views/wiki/ERB-Usage-Example)):
 
     - no_content_for :key
     # Use a dash (-) not equals (=)
