@@ -1,4 +1,4 @@
-# DryViews [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/pboling/dry_views) [![Build Status](https://secure.travis-ci.org/pboling/dry_views.png?branch=master)](http://travis-ci.org/pboling/dry_views)
+# DryViews [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/pboling/dry_views) [![Build Status](https://secure.travis-ci.org/pboling/dry_views.png?branch=master)](http://travis-ci.org/pboling/dry_views) [![Endorse Me](http://api.coderwall.com/pboling/endorsecount.png)](http://coderwall.com/pboling)
 
 ## Why?
 
