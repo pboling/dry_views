@@ -117,11 +117,11 @@ in a layout
 in a template
 
     = render :partial => 'hip_hop', :layout => 'sample'
-    = no_content_for :breakfast do              # ARROWED!
+    - no_content_for :breakfast                 # ARROWED!
 
 in the 'sample' partial layout
 
-    = no_content_for :breakfast do              # ARROWED!
+    - no_content_for :breakfast                 # ARROWED!
 
 in the 'hip_hop' partial
 
