@@ -1,0 +1,18 @@
+#!/usr/bin/env rake
+# Add your own tasks in files placed in lib/tasks ending in .rake,
+# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+require "rubygems"
+require "bundler/setup"
+
+# Rakefile configured to use the 4.2.5 app, just because.
+require File.expand_path("../config/application.4_2_5", __FILE__)
+
+Rails.application.load_tasks
+
+desc %[Must be run with: ENV["SKIP_RAILS_ROOT_OVERRIDE"] = true]
+task :test_db_setup => [:environment] do
+  Rails.env = ENV["RAILS_ENV"] = "test"
+  Rake::Task["db:drop"].invoke
+  Rake::Task["db:create"].invoke
+  Rake::Task["db:setup"].invoke
+end

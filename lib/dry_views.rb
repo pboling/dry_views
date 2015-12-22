@@ -6,7 +6,6 @@ module DryViews
                       # nil, false, :empty, cannot work, because @view_flow.get(name) is always converted to an
                       # ActiveSupport::SafeBuffer (a fancy string)
 
-  require 'dry_views/railtie'
-
+  require "dry_views/railtie"
 
 end

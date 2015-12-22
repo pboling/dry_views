@@ -16,10 +16,16 @@ Gem::Specification.new do |gem|
   gem.version       = DryViews::VERSION
 
   # Development Dependencies
-  gem.add_development_dependency(%q<rails>, ["> 3"])
-  gem.add_development_dependency(%q<activesupport>, ["> 3"])
-  gem.add_development_dependency(%q<rspec-rails>, [">= 2.11.0"])
-  gem.add_development_dependency(%q<reek>, [">= 1.2.8"])
-  gem.add_development_dependency(%q<roodi>, [">= 2.1.0"])
-
+  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "bundler"
+  gem.add_development_dependency("rails", ["> 3"])
+  gem.add_development_dependency("activesupport", ["> 3"])
+  gem.add_development_dependency "sqlite3"
+  gem.add_development_dependency "rspec", "~> 3.4"
+  gem.add_development_dependency("rspec-rails", [">= 3.4"])
+  gem.add_development_dependency("reek", [">= 1.2.8"])
+  gem.add_development_dependency("roodi", [">= 2.1.0"])
+  gem.add_development_dependency "appraisal", "~> 2.1"
+  gem.add_development_dependency "test-unit", "~> 3.1"
+  gem.add_development_dependency "pry", "~> 0.10"
 end
