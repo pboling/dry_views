@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = DryViews::VERSION
 
   # Development Dependencies
-  gem.add_development_dependency "rake", "~> 10.0"
+  gem.add_development_dependency "rake", "~> 12.3"
   gem.add_development_dependency "bundler"
   gem.add_development_dependency("rails", ["> 3"])
   gem.add_development_dependency("activesupport", ["> 3"])
